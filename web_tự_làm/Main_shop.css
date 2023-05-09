@@ -1,0 +1,182 @@
+@font-face{
+    src: url(Buffet\ Script.otf);
+    font-family: fontbanquyen;
+}
+*{margin: 0;
+padding: 0;}
+:root{
+    --font1:'Oswald', sans-serif;
+    --size1:48px;
+    --lineheight:59px;
+    --size2:18px;
+    --font2:segoe ui light;
+    --size3:22px;
+}
+.all-scroll {cursor: all-scroll;}
+.gt{
+    display: none;
+    transition: 0.4s;
+    margin: 0;
+    background-color: white;
+    border: 1px solid gray;
+    width: 170px;
+}
+.gt p a{
+    width: 170px;
+    font-size: 13px;
+    display: block;
+    padding-bottom: 5px;
+}
+.gt p a:hover{
+    background-color: aqua;
+
+}
+.gt.khac{
+    margin-left: -467px;
+     display: block;
+     margin-top: 49px;
+ }
+.banner_top{
+    height: 600px;
+    background-image: url(https://oldsailor.com.vn/vnt_upload/about/ab5_2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.banner_top:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:-webkit-linear-gradient(left,#000000c9,#0000ff12,#000000a3)
+}
+.banner_top ._3cot{
+    display: flex;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.banner_top ._3cot ._1cot{
+    width: 41.33%;
+}
+.banner_top ._3cot ._1cot.cottrai{  padding-top: 10px; }
+.banner_top ._3cot ._1cot.cottrai .fa-bars{
+    padding: 20px 30px;
+    font-size: 20px;
+     color: white;
+}
+.banner_top ._3cot ._1cot.cottrai .fa-bars:hover{
+    color: aqua;
+}
+.banner_top ._3cot ._1cot.cotgiua{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: fontbanquyen;
+}
+.banner_top ._3cot ._1cot.cotgiua a:hover{color: yellow;}
+.banner_top ._3cot ._1cot.cotgiua a{
+    height: 10px;
+    color: aqua;
+}
+.banner_top ._3cot ._1cot.cotgiua img{
+    width: 100px;
+    height: 62px;
+}
+.banner_top ._3cot ._1cot.cotphai{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+   
+}
+.banner_top ._3cot ._1cot.cotphai a{
+    color: white;    
+    display: inline-block; 
+    font-size: 20px;
+    padding: 15px 7px;
+}
+.textbanner{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+
+}
+.textbanner .content{
+    width: 1170px;
+    margin: auto;
+}
+.textbanner .content .small{
+    font-family:var(--font1);
+    color: white;
+}
+.textbanner .content h1{
+    color: white;
+    font-size: var(--size1);
+    line-height: var(--lineheight);
+    width: 50%;
+}
+/* enn css top */
+.content1{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    font-size: 120%;
+    line-height:28px;
+    padding: 0px 0px 5px;
+    padding: 100px 0;
+}
+.content1 .left{ margin-top: 8px;}
+.content1 .left span{
+    font-size: 18px;
+   
+}
+.content1 .left h3{
+    font-size: var(--size3);
+    font-family: var(--font1);
+    width: 50%;
+    font-weight: 400;
+    line-height: 1.35;
+   
+}
+.content1 .right{}
+.content1 .right p{
+    margin: 0 0 10px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.content1 .right a{
+    margin-left: 6px;
+    color: black
+}
+.content1 .right a:before{
+    content: '\f178';
+    visibility: hidden;
+    font: normal normal normal 14px/1 FontAwesome;
+    position: relative;
+    left: -5px;
+    transition: 0.3s;
+    color: red;
+}
+a{
+     text-decoration: none;
+}
+.content1 .right a:hover:before {
+    visibility: visible;
+    left: 0;
+
+}
+/* end_css_content1 */
+.footer{
+    width: 1280px;
+    color: white ;
+    height: 62px;
+    background-color: black;
+    display: flex;
+}
+p.name{
+   padding-top: 25px;
+   padding-left: 10px;
+}
+.dk{
+   margin-left: 538px;
+}
